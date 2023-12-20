@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Тег IFRAME</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/form.css">
+ </head>
+ <body>  
+
+ <form id="actionForm">
+ 	<section id="clientDetails">
+ 		<h2>Client details</h2>
+ 		<input type="text" name="firstName" id="firstName" value="First name" />
+ 		<input type="text" name="lastName" id="lastName" value="Last name" />
+ 		<input type="tel" name="phone" id="phone" value="Phone" />
+ 		<input type="email" name="email" id="email" value="Email (optional)" />
+ 	</section>
+ 	<section id="jobDetails">
+ 		<h2>Job details</h2>
+ 		<select id="jobType">
+ 			<option>job Type</option>
+ 			<option>Front-end developer</option>
+ 			<option>UX-UI developer</option>
+ 		</select>
+ 		<select id="jobSource">
+ 			<option>job source</option>
+ 			<option>Rabota.by</option>
+ 			<option>hh.ru</option>
+ 		</select>
+ 		<textarea id="jobDescription">Job description (optional)</textarea>
+ 	</section>
+ 	<section id="serviceLocation">
+ 		<h2>Service location</h2>
+ 		<input type="text" name="address" id="address" value="Address" />
+ 		<input type="text" name="city" id="city" value="City" />
+ 		<input type="text" name="state" id="state" value="State" />
+ 		<input type="text" name="zipCode" id="zipCode" value="Zip code" />
+ 		<select id="area">
+ 			<option>Area</option>
+ 			<option>NY</option>
+ 			<option>Minsk</option>
+ 		</select>
+ 	</section>
+ 	<section id="scheduled">
+ 		<h2>Scheduled</h2>
+ 		<input type="date" name="startDate" id="startDate" value="start date" />
+ 		<input type="time" name="startTime" id="startTime" value="start time" />
+ 		<input type="time" name="endTime" id="endTime" value="end time" />
+ 		<select id="testSelect">
+ 			<option>Test select</option>
+ 			<option>Test 1</option>
+ 			<option>Test 2</option>
+ 		</select>
+ 	</section>
+ 	<button type="submit" id="submitBtn">Отправить форму</button>
+					  
+ </form>	
+ <!-- Jquery  -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+ <script type="text/javascript" src="assets/js/modal.js"></script>
+ </body>
+</html>

@@ -1,0 +1,28 @@
+#clientDetails, #jobDetails,
+#serviceLocation, #scheduled {
+	width: 465px;
+	padding: 10px;
+	border: 1px solid;
+	display: inline-block;
+	vertical-align: top;
+	height: 190px;
+	margin-bottom: 15px;
+}
+#phone, #email, #address, #city, #state, #startDate, #testSelect {
+	width: 96%;
+}
+#firstName, #lastName, #startTime, #endTime {
+	width: 46%;
+	display: inline-block;
+}
+input {
+	margin-bottom: 10px;
+}
+#jobType, #jobSource, #area {
+	width: 46%;
+	margin-bottom: 10px;
+}
+#jobDescription {
+	width: 98%;
+	height: 45px;
+}
